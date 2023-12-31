@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 public class ConsultaCepService {
     public String validaCep(String cep) throws IllegalAccessException {
         if (cep == null || cep.length() != 8){
-            throw new IllegalAccessException("CEP INVÁLIDO");
+            throw new E("CEP INVÁLIDO");
         }
        return cep;
     }
