@@ -1,4 +1,4 @@
-package io.github.joaopepe10.consumirapi.consulta_cep;
+package io.github.joaopepe10.consumirapi.controller;
 
 import io.github.joaopepe10.consumirapi.dto.CepResultDTO;
 import org.springframework.http.ResponseEntity;
